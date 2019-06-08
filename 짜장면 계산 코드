@@ -1,0 +1,4 @@
+def Zzazzarazzazza(n) :
+	return n//4500
+n=int(input("당신이 n년 뒤 받을 돈을 입력해 주십시오"))
+print("그 돈이면 짜장면을",Zzazzarazzazza(n),"그릇을 먹겠다")
