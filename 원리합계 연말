@@ -1,0 +1,6 @@
+def wonlimal(a,n,r) :
+	return a*((1+r)**n-1)/r
+a=int(input("저금할 돈을 입력해 주십시오"))
+n=int(input("적금으로 돈을 불릴 햇수를 입력해 주십시오"))
+r=int(input("연이율을 퍼센트 빼고 입력해 주세요"))
+print("당신이",n,"년뒤 년말에 받을 최종 돈은", wonlimal(a,n,r), "원 입니다.")
